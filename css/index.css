@@ -1,292 +1,274 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,300&display=swap");
 
-
-.navbar-expand-lg{
-    background: #111111 !important;
+.navbar-expand-lg {
+  background: #111111 !important;
 }
 
 .light {
-    color:  #FFFFFF !important;
+  color: #ffffff !important;
 }
 
-.header{
-    background-image: url("../img/bg.png");
-    background-size: cover;
-    position: relative;
-    min-height: 90vh;
+.header {
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  position: relative;
+  min-height: 90vh;
 }
 
 .header > img {
-    width: 650px;
-    height: 800px;
-    position: absolute;
-    bottom: -10%;
-    left: 50%;
+  width: 650px;
+  height: 800px;
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
 }
 
 .header__top > h1 {
-
-    color: #FFFFFF;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 144px;
-    line-height: 152px;
+  color: #ffffff;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 152px;
 }
 
 .header__top > p {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    max-width: 655px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  max-width: 655px;
 }
 
-.header__left{
-    padding-top: 96px;
-    padding-left: 64px;
-    position: inherit;
-    display: flex;
-    z-index: 22;
-
+.header__left {
+  padding-top: 96px;
+  padding-left: 64px;
+  position: inherit;
+  display: flex;
+  z-index: 22;
 }
 
-.header__left{
-    display: flex;
-    flex-direction: column;
-    row-gap: 80px;
+.header__left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
 }
 
-.header__down > h5{
-    color: #000000;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 43px;
+.header__down > h5 {
+  color: #000000;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
 }
 
 .header__down > p {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    max-width: 350px;
-    padding-bottom: 90px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  max-width: 350px;
+  padding-bottom: 90px;
 }
 
-.main{
-    background: #111111;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.main {
+  background: #111111;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.main__title{
-    margin-top: 90px;
-    text-align: center;
-
+.main__title {
+  margin-top: 90px;
+  text-align: center;
 }
 
-.main__title > h1:nth-child(2){
-    color: #FCB500;
+.main__title > h1:nth-child(2) {
+  color: #fcb500;
 }
 
-.main__title > h1{
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 57px;
+.main__title > h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
 }
 
-.main__price{
-    margin-top: 80px;
-    display: flex;
-    flex-direction: row;
-    column-gap: 30px;
-    align-items: center;
+.main__price {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  align-items: center;
 }
 
 .main__price > span {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    color: #FFFFFF;
-    font-size: 45px;
-    line-height: 55px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 45px;
+  line-height: 55px;
 }
 
-.main__price > span:first-child{
-    font-size: 36px;
-    line-height: 43px;
-    color: #ADADAD;
-    text-decoration: line-through;
+.main__price > span:first-child {
+  font-size: 36px;
+  line-height: 43px;
+  color: #adadad;
+  text-decoration: line-through;
 }
 
-.main__product{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: 60px;
-    margin-top: 50px;
+.main__product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 60px;
+  margin-top: 50px;
 }
 
-.product__item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+.product__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .product__item > p {
-    margin: 0;
-    padding-top: 74px;
-
+  margin: 0;
+  padding-top: 74px;
 }
 
-.product__item > div{
-    color: #FCB500;
+.product__item > div {
+  color: #fcb500;
 }
-
-
 
 .big > p {
-    font-size: 36px;
-    line-height: 43px;
-    padding-top: 45px;
+  font-size: 36px;
+  line-height: 43px;
+  padding-top: 45px;
 }
 
 .big > div {
-    font-size: 20px;
-    line-height: 28px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
-.main > button{
-    margin-top: 64px;
-    margin-bottom: 112px;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    background: #FCB500;
-    border-radius: 7px;
-    width: 256px;
-    height: 56px;
-    border: none;
+.main > button {
+  margin-top: 64px;
+  margin-bottom: 112px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  background: #fcb500;
+  border-radius: 7px;
+  width: 256px;
+  height: 56px;
+  border: none;
 }
-
-
-
 
 @media all and (max-width: 1030px) {
-    .header > img {
-        /*display: none;*/
-        position: relative;
-        left: 0;
-        width: 100%;
-    }
+  .header > img {
+    /*display: none;*/
+    position: relative;
+    left: 0;
+    width: 100%;
+  }
 
-    .header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .header__down > p {
-        padding-bottom: 0;
-    }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__down > p {
+    padding-bottom: 0;
+  }
 
-    .header__top > h1{
-        font-size: 127px;
-        text-align: center;
+  .header__top > h1 {
+    font-size: 127px;
+    text-align: center;
+  }
 
-    }
+  .header__top > p {
+    text-align: center;
+    max-width: 100%;
+  }
 
-    .header__top > p{
-        text-align: center;
-        max-width: 100%;
-    }
+  .header__down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-
-
-    .header__down{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .header__down > p{
-        max-width: 100%;
-    }
+  .header__down > p {
+    max-width: 100%;
+  }
 }
 
 @media all and (max-width: 770px) {
+  .header__top > h1 {
+    font-size: 86px;
+    line-height: 99px;
+  }
 
-    .header__top > h1{
-        font-size: 86px;
-        line-height: 99px;
-    }
+  .main__product {
+    flex-direction: column;
+  }
 
-    .main__product{
-        flex-direction: column;
-    }
-
-    .product__item{
-        margin-top: 30px;
-    }
+  .product__item {
+    margin-top: 30px;
+  }
 }
 
 @media all and (max-width: 770px) {
+  .header__top > h1 {
+    line-height: 40px;
+    font-size: 40px;
+  }
 
-    .header__top > h1{
-        line-height: 40px;
-        font-size: 40px;
-    }
+  .big > img {
+    width: 300px;
+  }
 
-     .big  > img{
-        width: 300px;
-    }
+  .header__left {
+    padding-left: 0;
+  }
 
-    .header__left{
-        padding-left: 0;
-    }
-
-
-
-    /*.main > img{*/
-    /*    width: 300px;*/
-    /*}*/
-
+  /*.main > img{*/
+  /*    width: 300px;*/
+  /*}*/
 }
 
 @media all and (max-width: 425px) {
-    .header__down > p {
-text-align: center;
-    }
+  .header__down > p {
+    text-align: center;
+  }
 
-    .main__title > h1{
-        font-size: 20px;
-        line-height: 20px;
-    }
+  .main__title > h1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
 
-    .header__down > h5{
-        text-align: center;
-    }
+  .header__down > h5 {
+    text-align: center;
+  }
 
-    .header > img{
-        width: 300px;
-        height: 300px;
-    }
+  .header > img {
+    width: 300px;
+    height: 300px;
+  }
 
-    .big > p{
-        text-align: center;
-    }
+  .big > p {
+    text-align: center;
+  }
 }
